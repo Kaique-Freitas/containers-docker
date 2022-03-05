@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 services:
   db_mysql:
@@ -13,4 +13,4 @@ services:
 
     environment:
       - USER=root
-      - MYSQL_ROOT_PASSWORD=your_password
+      - MYSQL_ROOT_PASSWORD=${MYSQL_PASSWORD}
